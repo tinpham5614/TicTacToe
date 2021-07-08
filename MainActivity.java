@@ -101,31 +101,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void draw() {
         messageTextView.setText("DRAW!!");
-
     }
 
     private void player2Wins() {
         messageTextView.setText("Player O WINS");
-
     }
 
     private void player1Wins() {
         messageTextView.setText("Player X WINS");
-
     }
 
     @Override
     protected void onSaveInstanceState(@NonNull  Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt("roundCount", roundCount);
         outState.putBoolean("player1", player1);
     }
 
     @Override
     protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
-
-        roundCount = savedInstanceState.getInt("roundCount");
         player1 = savedInstanceState.getBoolean("player1");
     }
 }
