@@ -10,10 +10,10 @@
         android:id="@+id/tableRow"
         android:layout_width="331dp"
         android:layout_height="103dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="4dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.212"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -24,7 +24,6 @@
             android:layout_margin="5dp"
             android:onClick="onClick"
             android:textSize="30sp"
-            android:freezesText="true"
             tools:layout_editor_absoluteX="151dp"
             tools:layout_editor_absoluteY="160dp" />
 
@@ -35,7 +34,6 @@
             android:layout_margin="5dp"
             android:onClick="onClick"
             android:textSize="30sp"
-            android:freezesText="true"
             tools:layout_editor_absoluteX="51dp"
             tools:layout_editor_absoluteY="160dp" />
 
@@ -46,7 +44,6 @@
             android:layout_margin="5dp"
             android:onClick="onClick"
             android:textSize="30sp"
-            android:freezesText="true"
             tools:layout_editor_absoluteX="251dp"
             tools:layout_editor_absoluteY="160dp" />
     </TableRow>
@@ -54,10 +51,10 @@
     <TableRow
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="104dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -68,7 +65,6 @@
             android:layout_margin="5dp"
             android:onClick="onClick"
             android:textSize="30sp"
-            android:freezesText="true"
             tools:layout_editor_absoluteX="151dp"
             tools:layout_editor_absoluteY="160dp" />
 
@@ -79,7 +75,6 @@
             android:layout_margin="5dp"
             android:onClick="onClick"
             android:textSize="30sp"
-            android:freezesText="true"
             tools:layout_editor_absoluteX="51dp"
             tools:layout_editor_absoluteY="160dp" />
 
@@ -90,7 +85,6 @@
             android:layout_margin="5dp"
             android:onClick="onClick"
             android:textSize="30sp"
-            android:freezesText="true"
             tools:layout_editor_absoluteX="251dp"
             tools:layout_editor_absoluteY="160dp" />
     </TableRow>
@@ -99,10 +93,10 @@
         android:id="@+id/tableRow2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="204dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.211"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -113,7 +107,6 @@
             android:layout_margin="5dp"
             android:onClick="onClick"
             android:textSize="30sp"
-            android:freezesText="true"
             tools:layout_editor_absoluteX="151dp"
             tools:layout_editor_absoluteY="160dp" />
 
@@ -124,7 +117,6 @@
             android:layout_margin="5dp"
             android:onClick="onClick"
             android:textSize="30sp"
-            android:freezesText="true"
             tools:layout_editor_absoluteX="51dp"
             tools:layout_editor_absoluteY="160dp" />
 
@@ -135,7 +127,6 @@
             android:layout_margin="5dp"
             android:onClick="onClick"
             android:textSize="30sp"
-            android:freezesText="true"
             tools:layout_editor_absoluteX="251dp"
             tools:layout_editor_absoluteY="160dp" />
     </TableRow>
@@ -151,10 +142,10 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.236"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableRow2"
-        app:layout_constraintVertical_bias="0.378"></Button>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953"></Button>
 
     <TextView
         android:id="@+id/textView"
@@ -164,9 +155,9 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.821"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
+        app:layout_constraintVertical_bias="0.234" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
